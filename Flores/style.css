@@ -1,0 +1,139 @@
+
+h1{
+    color: rgb(0, 0, 0);
+    font-size:xx-large;
+    font-style: italic;
+}
+.Cards img{
+    margin: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 360px; 
+}
+body{
+    border: 10px;
+    border-style: groove;
+    color: rgb(0, 0, 0);
+}
+html{
+    width: 1000;
+    height: 1000;
+
+}
+h2{
+    color: rgb(0, 0, 0);
+}
+.Textoprincipal h4{
+    width: 50%;
+    text-align: justify;
+}
+footer{
+    background-color: rgba(255, 162, 227, 0.952);
+}
+    
+h3{
+    color: rgb(0, 0, 0);
+}
+a{
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+}
+.Banner img{
+    width: 300px;
+    height: 300px;
+}
+p
+{
+    color: rgb(0, 0, 0);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f90778;
+  }
+  
+  li {
+    float: left; /* float para fazer com que os elementos do bloco flutuem próximos uns dos outros*/
+  }
+  
+  li a {
+    display: block;  /*Permite especificar o preenchimento (e altura, largura, margens, etc. se desejar)*/
+    color: white;
+    text-align: center;
+    padding: 14px 16px; /*Especifique algum preenchimento entre cada elemento <a>, para que tenham uma boa aparência*/
+    text-decoration: none;/*Adicione uma cor de fundo cinza a cada elemento <a>*/
+  }
+  
+
+  li a:hover {
+    background-color: #000000;
+  }
+  footer{
+    background-color: #e277c0;
+    color: #ffffff;
+    padding: 40px 0 ;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+.font-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.footer-section{
+    flex-basis: 23%;
+    margin-bottom: 20px;
+}
+.footer-section h4{
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #000000;
+}
+.footer-section p, .footer-section ul{
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+.footer-section ul{
+    list-style-type: none;
+}
+.footer-section ul li{
+    margin-bottom: 10px;
+}
+.footer-section ul li a{
+
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.footer-section ul li a:hover{
+    color: #000000;
+}
+.Social-links a{
+    display: inline-block;
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.Social-links a:hover{
+    color: rgb(16, 2, 2);
+}
+
+.footer-bottom{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    border-top: 1px #000000;
+    font-size: 14px;
+}
+.footer-bottom p{
+    margin: 0;
+}
+
